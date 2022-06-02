@@ -1,0 +1,66 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.editArena {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    height: 330px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c7eeff;
+    border-radius: 15px;
+}
+
+.editArena > form {
+    margin-left: 10px;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.updateButton {
+    float: right;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 60px;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.cancelButton {
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 60px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.characterLimit {
+    color: black;
+}
+
+.cancelButton:hover {
+    background-color: rgba(246, 68, 68, 0.53);
+    border-radius: 15px;
+}
+
+.updateButton:hover {
+    background-color: rgba(179, 246, 104, 0.79);
+    border-radius: 15px;
+}

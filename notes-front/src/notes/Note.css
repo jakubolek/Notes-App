@@ -1,0 +1,109 @@
+body {
+    color: white;
+}
+
+textarea {
+    border: none;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    resize: none;
+    background-color: #c7eeff;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.notes {
+    max-width: 1000px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.addNote {
+    background-color: #c7eeff;
+    margin-bottom: 5px;
+    border-radius: 9px;
+    margin-left: 93px;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    width: 250px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    padding: 15px;
+    height: 300px;
+}
+
+.noteFooter {
+    display: flex;
+    float: left;
+    background-color: #c7eeff;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    width: 230px;
+    color: black;
+}
+
+.saveButton {
+    background-color: #c7eeff;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 60px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.saveButton:hover {
+    background-color: #d3f7ad;
+    border-radius: 15px;
+}
+
+.notesList ul {
+    display: flex;
+    float: left;
+    width: 250px;
+    background-color: #4c5f7a;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    padding: 15px;
+    height: 300px;
+    justify-content: space-between;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+.notes ul {
+    margin-left: 30px;
+}
+
+.icons {
+    margin-top: 250px;
+}
+
+.editIcon {
+    cursor: pointer;
+    font-size: 26px;
+    border-radius: 17px;
+}
+
+.editIcon:hover {
+    background-color: #e97451;
+
+}
+
+.deleteIcon {
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.deleteIcon:hover {
+    background-color: red;
+    border-radius: 17px;
+}
