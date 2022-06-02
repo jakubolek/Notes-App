@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/note_app_test
+    username: root
+    password: Kuba123
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+jwt:
+  secret: asd2odpcZxmdSpc
+  accessTokenExpireTime: 900000
+  refreshTokenExpireTime: 604800000
